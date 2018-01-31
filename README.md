@@ -9,7 +9,7 @@ Using multiple custom webscrapers and APIs, indicators of a coins success are cr
 
 If enough time is left, users will be able to register and add certain coins to a watchlist. 
 
-# Functies van CryptoAnalyzer (nog vertalen naar engels)
+# Functies van CryptoAnalyzer
 
 - Zie ontwikkelaarsactiviteit en volumehandelverandering voor alle cryptomunten in 1 overzicht
 
