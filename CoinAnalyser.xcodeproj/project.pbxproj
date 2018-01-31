@@ -41,6 +41,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AE8EA0552018042F00B80826 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		114E4BB2478D6F41FF6936C3 /* Pods_CoinAnalyserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinAnalyserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECB48253E105E072630FADD /* Pods-CoinAnalyserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinAnalyserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinAnalyserUITests/Pods-CoinAnalyserUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +206,7 @@
 				AE19BD58200CFDAA0095D4D2 /* Resources */,
 				BF5600C535F94BD6F1EC2C48 /* [CP] Embed Pods Frameworks */,
 				51101E1463D7302DC86F6B4D /* [CP] Copy Pods Resources */,
+				AE8EA0552018042F00B80826 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -685,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 738AB9326B1C3E217ABDECC1 /* Pods-CoinAnalyser.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YJP4YHFRY;
@@ -701,6 +716,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65AD9516EC1E6B74D5CE84AB /* Pods-CoinAnalyser.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YJP4YHFRY;
