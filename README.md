@@ -41,3 +41,6 @@ The Hardest part of this project is getting the back-end fully functioning. Seei
 
 # Mockup Images
 ![Alt text](https://github.com/swcloud1/CryptoAnalyzer/blob/master/screenshot.png "Optional title")
+
+# Better Code Hub Score
+[![BCH compliance](https://bettercodehub.com/edge/badge/swcloud1/CoinAnalyser?branch=master)](https://bettercodehub.com/)
