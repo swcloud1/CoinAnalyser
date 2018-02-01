@@ -65,7 +65,8 @@ All coininfo is stored in a seperate instance of a Coin-struct, which is used by
 ## Challenges
 One of the biggest challenges was getting the tables to display the correct coin-info. The data was gathered from Firebase after the table was loaded. This caused the table to be filled up with empty data. By incorporating completion handlers I was able to get the correct data in the table. 
 
-Another big challenge was dealing with all secundaire activities pertaining to the assignment such as: Meeting daily with fellow student, taking daily pictures, creating a plan every week, chronicling activities and setting both short and long term goals. My main focus was creating a good app and I did not experience any added benefit by those activities. 
+Another big challenge was dealing with all secundaire activities pertaining to the assignment such as: Meeting daily with fellow students, taking daily pictures, creating a plan every week, chronicling activities and setting both short- and longterm goals. My main focus was creating a good app and I did not experience any added benefit by those activities. I understand how some students could benefit by these strict lines, but for me I was just taking up time 
+I could spend improving my app. 
 
 This was the first time using graphs. Getting the libraries working and being to able to stack multiple graphs in one view was quite challenging. 
 
