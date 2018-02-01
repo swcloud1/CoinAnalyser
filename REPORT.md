@@ -17,19 +17,9 @@ Coinanalyser is an IOS Application that allow users to discover new cryptocurren
 ### Detail: Classes, Modules, File and Functions
 All coininfo is stored in a seperate instance of a Coin-struct, which is used by all 3 views. 
 
+![Alt text](https://github.com/swcloud1/CoinAnalyser/blob/master/docs/diagram.png "Optional title")
 
-```mermaid
 
-graph LR
-
-M(Main View) --Create Coin-Instance--> I((Coin-Instance))
-I --All Coins--> M
-M -- Coin-Instance--> D(Coin Details)
-D --Coin-Instance--> S{Device Storage}
-W(Watchlist) --Delete Commands--> S
-S --All Stored Coins--> W
-W -- Coin-Instance--> D
-```
 **The Coin struct:** (defined in Coin.swift)
 
 |Component  		|Type        |Description               |
