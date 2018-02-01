@@ -17,8 +17,9 @@ Coinanalyser is an IOS Application that allow users to discover new cryptocurren
 ### Detail: Classes, Modules, File and Functions
 All coininfo is stored in a seperate instance of a Coin-struct, which is used by all 3 views. 
 
-[Mermaid](https://mermaidjs.github.io/)
+
 ```mermaid
+
 graph LR
 
 M(Main View) --Create Coin-Instance--> I((Coin-Instance))
@@ -30,6 +31,7 @@ S --All Stored Coins--> W
 W -- Coin-Instance--> D
 ```
 **The Coin struct:** (defined in Coin.swift)
+
 |Component  		|Type        |Description               |
 |-------------------|------------|--------------------------|
 |name				|`String`    |`Name of the Coin`|
@@ -44,6 +46,7 @@ W -- Coin-Instance--> D
 |ArchiveURL 		|`Path`      |`Set Save location p/Coin`|
 
 **Main View:** (defined in AllCoinsViewController.swift)
+
 |Component  		|Type        |Description               |
 |-------------------|------------|--------------------------|
 |Coin				|`Struct`    |`Instance of Coin`|
@@ -52,6 +55,7 @@ W -- Coin-Instance--> D
 |TableView        	|`UITableView`|`Generated Table`|
 
 **Watchlist:** (defined in MyCoinsViewController.swift)
+
 |Component  		|Type        |Description               |
 |-------------------|------------|--------------------------|
 |Coin				|`Struct`    |`Instance of Coin`|
@@ -60,6 +64,7 @@ W -- Coin-Instance--> D
 |TableView        	|`UITableView`|`Generated Table`|
 
 **Coin Details:** (defined in CoinsDetailsViewController.swift)
+
 |Component  		|Type        |Description               |
 |-------------------|------------|--------------------------|
 |Coin				|`Struct`    |`Instance of Coin`|
