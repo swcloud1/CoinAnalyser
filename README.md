@@ -39,6 +39,9 @@ In here lies the beauty of the CoinAnalyser. An app that allow for finding poten
 ## Hardest Parts
 The Hardest part of this project is getting the back-end fully functioning. Seeing as this is not a requirement of the assignment, it does not count. The hardest part in creating the app is creating a graph for each Coin using the IOS Framework that displays multiple values in a easy to view manner. An other difficulty might be keeping the app quick, responsive and fun to use, whilst displaying 800+ unique tablecells. Though this hasn't been tested yet. 
 
+# Demo Video
+https://www.youtube.com/watch?v=DI7RYtlZDWk
+
 # Mockup Images
 ![Alt text](https://github.com/swcloud1/CryptoAnalyzer/blob/master/screenshot.png "Optional title")
 
