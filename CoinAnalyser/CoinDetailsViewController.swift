@@ -85,7 +85,7 @@ class CoinDetailsViewController: UIViewController {
             {
                 print("coin already added")
                 self.coinAlreadyAdded()
-                
+
             } else {
                 MyCoinsViewController.coins.append(self.coin)
             }
@@ -120,8 +120,7 @@ class CoinDetailsViewController: UIViewController {
     // alert user when a coin is already in their WatchList
     func coinAlreadyAdded() {
         let alert = UIAlertController(title: "Coin Already Added", message: "", preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: "Cancel",
-                                          style: .default)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .default)
         alert.addAction(cancelAction)
         present(alert, animated: true, completion: nil)
     }
@@ -142,9 +141,14 @@ class CoinDetailsViewController: UIViewController {
             devActivity.textColor = UIColor.green
         }
         
+        // allow formatting of numbers into Euro format
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .currency
+        numberFormatter.currencyCode.append("\u{20AC}")
+        
         // set last known 24hr trade volume
-        let volume24h = coin.volumeArray.last as! Float
-        lastvolume24h.text = "\u{20AC}" + String(format: "%.2f", volume24h)
+        let volume24h = coin.volumeArray.last!! as NSNumber
+        lastvolume24h.text = numberFormatter.string(from: volume24h)
         lastvolume24h.textColor = UIColor.black
         
         // create chart for developer activity
@@ -168,11 +172,6 @@ class CoinDetailsViewController: UIViewController {
         trendChart.showYLabelsAndGrid = false
         trendChart.add(trendseries)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
 
 }
 
