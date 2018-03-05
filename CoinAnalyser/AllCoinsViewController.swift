@@ -77,7 +77,7 @@ class AllCoinsViewController: UITableViewController, PopUpViewControllerDelegate
                     let volumes = coinContent.value(forKey: "volumes")
                     
                     // only use coins with both development data and trade volume data
-                    if dev12Weeks != nil {
+                    if let dev12Weeks != nil {
                         
                         if volumes != nil {
                             
