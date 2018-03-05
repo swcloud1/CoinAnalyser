@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F98FF1C4DAD2ADCC10A2044 /* Pods_CoinAnalyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43294BE7A75A6652DD324DA /* Pods_CoinAnalyser.framework */; };
+		3F98FF1C4DAD2ADCC10A2044 /* Pods_CoinAnalyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43294BE7A75A6652DD324DA /* Pods_CoinAnalyser.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		4156DFB43E82A0DAFF0D767A /* Pods_CoinAnalyserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E182CF88B0375EF5A0BFCAB /* Pods_CoinAnalyserUITests.framework */; };
 		4CCAF58574B8CEE26F8F1E24 /* Pods_CoinAnalyserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E4BB2478D6F41FF6936C3 /* Pods_CoinAnalyserTests.framework */; };
 		AE19BD5E200CFDAA0095D4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19BD5D200CFDAA0095D4D2 /* AppDelegate.swift */; };

@@ -18,6 +18,7 @@ class PopUpViewController: UIViewController {
     
     public var delegate: PopUpViewControllerDelegate?
 
+    @IBOutlet weak var sortMenuView: UIView!
     // return to the previous view when a touch is registered outside the view
     @IBAction func comPlete(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -43,6 +44,8 @@ class PopUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        sortMenuView.layer.borderWidth = 1
+        sortMenuView.layer.borderColor = UIColor.black.cgColor
     }
 
     override func didReceiveMemoryWarning() {
